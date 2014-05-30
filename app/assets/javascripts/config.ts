@@ -1,3 +1,5 @@
+/// <reference path="dts/require.d.ts" /> 
+
 require.config({
 	paths: {
 			react: "vendor/react/react",

@@ -1,4 +1,6 @@
-name := "play-reactjs"
+import play.Project._ 
+
+name := "play-reactjs-typescript"
 
 version := "1.0-SNAPSHOT"
 
@@ -8,7 +10,11 @@ libraryDependencies ++= Seq(
   cache
 )     
 
-play.Project.playScalaSettings
+playScalaSettings
+
+typescriptSettings
+
+tsOptions ++= Seq("--sourcemap")
 
 requireJs += "config.js"
 
