@@ -1,0 +1,24 @@
+{
+  "name": "play-reactjs",
+  "version": "0.0.0",
+  "authors": [
+    "shurickFomin@gmail.com"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/javascripts/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "require-jsx": "*",
+    "react": "~0.10.0"
+  }
+}

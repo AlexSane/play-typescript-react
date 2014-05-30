@@ -1,0 +1,6 @@
+@(message: String)
+
+@main("Welcome to Play") {
+
+	@helper.requireJs(core = routes.Assets.at("javascripts/vendor/requirejs/require.js").url, module = routes.Assets.at("javascripts/config").url)
+}
