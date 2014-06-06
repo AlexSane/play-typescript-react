@@ -22,9 +22,9 @@ define([
           </h2>
           <span dangerouslySetInnerHTML={{__html: rawMarkup}} />
 
-          {/* delete button */}
           <button onClick={this.deleteComment}>delete</button>
         </div>
+
       );
     }
   });
