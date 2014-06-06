@@ -3,6 +3,7 @@
 require.config({
 	paths: {
 			react: "vendor/react/react",
+			'react-typescript': "libs/react-typescript",
             jsx: "vendor/require-jsx/jsx",
             JSXTransformer: 'vendor/react/JSXTransformer'
         },

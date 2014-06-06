@@ -2,15 +2,14 @@
  * @jsx React.DOM
  */
 define([
-  'Utils'
+    'react'
 ], function(
-  React,
-  Utils
+  React
 ){
     return {
         render: function(){
             return (
-                <span>{this.props.text}</span>
+                <span>{this.props.text} {this.getText()}</span>
                 );
         }
     };

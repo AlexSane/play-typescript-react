@@ -7,7 +7,6 @@
 import React = require('react');
 import Comment = require('Comment');
 
-var c = Comment.c;
-React.renderComponent(c(), document.body);
+var component = Comment.HelloMessage;
 
-//React.renderComponent(c, document.body);
+React.renderComponent(component({text:"hello"}), document.body);
